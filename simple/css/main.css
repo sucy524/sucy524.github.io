@@ -1,0 +1,276 @@
+*{
+	box-sizing: border-box;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body{
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+header{
+	height: 900px;
+	width: 100%;
+	background: url(/Users/susannamunoz/Desktop/Designation/Trello/Week_7_UX_Dev/simple/img/background.jpg);
+}
+.container{
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.container h2{
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+.container p{
+	font-size: 16px;
+	font-family: 'Titillium Web', arial, helvetica, sans-serif;
+	font-weight: 300;
+	margin-bottom: 50px;
+	color: #555555;
+}	
+.clearfix:.work{
+	display: table;
+	content: '';
+	clear: both;
+}
+
+h1, h2, h3, time{
+	font-family: Teko, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 1.2em;
+}
+
+h1{
+	font-size: 120px;
+	letter-spacing: 12px;
+	margin-bottom: 48px;
+}
+
+h2{
+	font-size: 30px;
+	margin-bottom: 6px;
+	letter-spacing: 5px;
+}
+
+.contact .container h2{
+	font-size: 30px;
+	color: #444444;
+}
+
+h3{
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+time{
+	display: block;
+	font-size: 16px;
+	color: #959595;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.navigation a:hover{
+	border-bottom: solid 3px;
+}
+.logo{
+	float:left;
+}
+header.top_bar{
+	margin-bottom: 100px;
+	border-bottom: 3px;
+}
+nav ul {
+	border-style: solid;
+
+}
+.navigation ul{
+	float:right;
+}
+.navigation li{
+	display: inline;
+	margin: 30px;
+	float:left;
+}
+li .active{
+	border-bottom: 3px;
+}
+main{
+	width: 100%;
+	margin-bottom: 40px;
+	background-color: #fafafa;
+}
+
+button {
+	display: inline-block;
+	font-family: 'Teko', Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #000000;
+	background-color: #FFF;
+	border: none;
+	margin-top: 40px;
+	height: 50px;
+	padding: 13px 57px;
+	cursor: pointer;
+}
+
+.title{
+	text-align: center;
+}
+.hero_title{
+	color: #FFF;
+}
+
+.title h1{
+	padding-top: 200px;
+	padding-bottom: 30px;
+	font-size: 120px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 120px;
+	letter-spacing: 15px;
+	margin: 0 auto;
+}
+.title p{
+	text-align: center;
+	color: #FFF;
+	width: 65%;
+	margin:0 auto;
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+
+}
+.cta{
+	height: 240px;
+	width: 100%;
+	background-color: #f63c3c;
+	color:#FFFFFF;
+	text-align: center;
+}
+.cta h2{
+	letter-spacing: 3px;
+	text-align: center;
+	padding-top: 60px;
+}
+.cta p{
+	font-size: 16px;
+	font-family: 'Roboto', arial, helvetica, sans-serif;
+	font-weight: 300;
+	padding-bottom: 25px;
+}
+.button{ 
+	background-color: #FFF; 
+/*	width:270px; 
+	height:52px; */
+	padding:10px 55px;
+	border:none; 
+	outline:none;
+	color:#685157;
+}
+.explore{
+	margin: 0 auto;
+}
+
+.social li{
+	display: inline-block;
+	height: 195px;
+	width: 270px;
+	background-color: #30282a;
+	text-transform: uppercase;
+	padding-top: 55px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	line-height: 50px;
+	margin-right: 10px;
+}
+.social a{
+	text-align: center;
+	top: 20%;
+	left:50%;
+	display: block;
+	margin-right:-50%;
+/*	transform: translate(-50%);
+*/	margin: 2px;
+}
+.social i{
+	display:block;
+}
+/*.social{
+	padding: 50px;
+}*/
+.work h2{
+	font-family: 'Teko', Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+}
+.work h3{
+	letter-spacing: 2px;
+}
+.work{
+	width: 100%;
+	text-align: center;
+}
+.work p{
+	font-family: 'Roboto', arial, helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #555555;
+	margin-bottom: 30px;
+}
+.work article{
+	display: inline-block;
+	width: 48.5%;
+	padding-left: 3%;
+	text-align: center;
+}
+.work article img{
+	width: 100%;
+}
+.show_more a{
+	font-family: 'Teko', arial, helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color:#f63c3c;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.show_more{
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+.show_more a:hover{
+	border-bottom: solid 3px;
+}
+footer .copyright .container{
+	background-color: #FFF;
+	padding:0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.copyright p{
+	font-family: 'Titillium Web', arial, helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	color:#555555;
+}
